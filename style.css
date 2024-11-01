@@ -1,0 +1,97 @@
+#ship200_popup_window a{color:#3b679e; text-decoration:none; font-size:11px;}
+#ship200_popup_window a:hover,a:focus,a:active{color:#103460; font-size:11px;}
+
+
+.btn{
+    box-shadow:0 1px 0 0 rgba(255,255,255,.25) inset, 0 1px 3px rgba(63, 114, 155, 0.55);
+    border-radius:3px;
+    display:inline-block;
+    font-size:0.8em;
+    font-weight:bold;
+    padding:3px 24px 4px;
+    text-decoration:none;
+    cursor:pointer
+}
+.btn.grey{
+    padding:3px 15px 4px;
+    font-family:helvetica,arial,sans-serif
+}
+#ship200_popup_window span{position:absolute; top:0; left:0; display:block; height:100%; width:40px; background-repeat:no-repeat; background-position:5px 50%}
+.btn{padding-left:25px; padding-right:10px; position:relative}
+.btn.ship {padding-left:40px}
+.btn.return{padding-left:30px}
+.btn.ship span{background-image: url("https://secure.ship200.com/api/html/button/ship-1.png")}
+.btn.return span{background-image: url("https://secure.ship200.com/api/html/button/return.png")}
+
+.btn:hover, .btn:focus,.btn:active, .primaryAction:hover {
+    background-color:#468ccf;
+    background:-moz-linear-gradient(center top, #468ccf 5%, #569fd0 100% );
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #468ccf), color-stop(1, #569fd0) );
+    background:-webkit-linear-gradient(top, #468ccf 5%, #569fd0 100% );
+    background:-o-linear-gradient(top, #468ccf 5%, #569fd0 100% );
+    background:-ms-linear-gradient(top, #468ccf 5%, #569fd0 100% );
+    background:linear-gradient(top, #468ccf 5%, #569fd0 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#468ccf', endColorstr='#569fd0');
+    color:#fff
+}
+.btn.grey{
+    border:1px solid #bac0c3 !important;
+    border-color:#c3d0df #bac0c3 #a6acaf;
+    border-color:#c3d0df #a6bbd0 #9fb6cc;
+    border-color:rgba(63, 114, 155, 0.35) rgba(63, 114, 155, 0.4) rgba(63, 114, 155, 0.65);
+    background-color:#fafbfc;
+    background:-moz-linear-gradient(center top, #fafbfc, #eaebec) repeat scroll 0 0 transparent;
+    background:-webkit-linear-gradient(top, #fafbfc, #eaebec) repeat scroll 0 0 transparent;
+    background:-o-linear-gradient(top, #fafbfc, #eaebec) repeat scroll 0 0 transparent;
+    background:-ms-linear-gradient(top, #fafbfc, #eaebec) repeat scroll 0 0 transparent;
+    background:linear-gradient(top, #fafbfc, #eaebec) repeat scroll 0 0 transparent;
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fafbfc', endColorstr='#eaebec');
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#fafbfc',EndColorStr='#eaebec')";
+    zoom: 1;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15), 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    color: #3b679e;
+    text-shadow: 1px 1px 0 rgba(255,255,255,.9);
+}
+.btn.grey:hover{
+    border-color:#9ea4a7&nbsp;#a6acaf #a6acaf;
+    background-color:#eaebec;
+    background:-moz-linear-gradient(center top, #eaebec, #fafbfc) repeat scroll 0 0 transparent;
+    background:-webkit-linear-gradient(top, #eaebec, #fafbfc) repeat scroll 0 0 transparent;
+    background:-o-linear-gradient(top, #eaebec, #fafbfc) repeat scroll 0 0 transparent;
+    background:-ms-linear-gradient(top, #eaebec, #fafbfc) repeat scroll 0 0 transparent;
+    background:linear-gradient(top, #eaebec, #fafbfc) repeat scroll 0 0 transparent;
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#eaebec', endColorstr='#fafbfc');
+    background-color:#eaebec;
+    color: #3f729b;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15), 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+}
+.btn:active, .btn:focus, .primaryAction:active, .primaryAction:focus{
+    border:1px solid #256ea0;	border-color:rgba(0, 0, 0, 0.25)
+}
+
+.btn.return {
+    padding-left: 10px !important;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.btn.return span {
+    padding-left: 25px;
+    background-position: left center !important;
+    background-repeat: no-repeat !important;
+}
+.btn.ship {
+    padding-left: 15px !important;
+    margin-left: 2px
+}
+.btn.ship span {
+    padding-left: 35px;
+    background-position: left center !important;
+    background-repeat: no-repeat !important;
+}
+.btn.ship{
+    padding-top:5px !important;
+}
+.btn.return
+{
+    padding-top:5px !important;
+}
